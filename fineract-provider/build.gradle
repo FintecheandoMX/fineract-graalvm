@@ -243,7 +243,7 @@ bootJar {
 
 jib {
     from {
-        image = 'ghcr.io/graalvm/jdk-community:17'
+        image = 'harbor.flexcore.mx/fintechsys/com.mx.fintecheando.mx.graalvm.main:latest'
         platforms {
             platform {
                 architecture = System.getProperty("os.arch").equals("aarch64")?"arm64":"amd64"
